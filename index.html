@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" id="main-html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض أعمال أميره الرشيدي | Data Science Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="ar">أميره | Amirah</span>
+                <span class="en">أميره | Amirah</span>
+            </div>
+            
+            <div class="controls">
+                <button id="theme-toggle" class="control-btn" title="تغيير الإضاءة">🌙</button>
+                <button id="lang-toggle" class="control-btn" title="تغيير اللغة">EN</button>
+            </div>
+
+            <div class="cv-buttons">
+                <a href="Amirah_CV_En.pdf" target="_blank" class="btn-cv">
+                    <span class="ar">CV (English)</span>
+                    <span class="en">CV (English)</span>
+                </a>
+                <a href="Amirah_CV_Ar.pdf" target="_blank" class="btn-cv">
+                    <span class="ar">السيرة الذاتية (عربي)</span>
+                    <span class="en">CV (Arabic)</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <span class="badge">
+                <span class="ar">علوم البيانات وتحليلها | جامعة حائل</span>
+                <span class="en">Data Science & Analytics | University of Hail</span>
+            </span>
+            <h1>
+                <span class="ar">أنا أميره الرشيدي، <span class="highlight">أصنع المعنى</span> من البيانات.</span>
+                <span class="en">.I'm Amirah Alreshidi, I <span class="highlight">create meaning</span> from data</span>
+            </h1>
+            <p class="hero-desc">
+                <span class="ar">طالبة في السنة الثالثة، متخصصة في هندسة البيانات وبناء الحلول التحليلية التنبؤية لتحويل الأرقام إلى قرارات ذكية.</span>
+                <span class="en">.A third-year student specializing in Data Engineering and building predictive analytical solutions to transform numbers into smart decisions</span>
+            </p>
+            <div class="social-links">
+                <a href="https://github.com/Amirah404" target="_blank">GitHub</a> • 
+                <a href="https://www.linkedin.com/in/amirahalreshidi-ds" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills container">
+        <h2 class="section-title">
+            <span class="ar">الأدوات والمهارات</span>
+            <span class="en">Tools & Skills</span>
+        </h2>
+<div class="skills-grid">
+            <div class="skill-item">Data Engineering (ETL)</div>
+            <div class="skill-item">Python (Pandas, NumPy)</div>
+            <div class="skill-item">SQL & Data Cleaning</div>
+            <div class="skill-item">Looker Studio / Power BI</div>
+            
+            <div class="skill-item">Machine Learning (RF, KNN, SVM)</div>
+            <div class="skill-item">Generative AI Models</div>
+            <div class="skill-item">Advanced Excel & EDA</div>
+            
+            <div class="skill-item">Web Scraping (BeautifulSoup)</div>
+            <div class="skill-item">Agile & Project Management</div>
+            <div class="skill-item">Front-End & UI/UX</div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="projects container">
+        <h2 class="section-title">
+            <span class="ar">معرض المشاريع التقنية</span>
+            <span class="en">Technical Projects Gallery</span>
+        </h2>
+        <div class="projects-grid">
+            
+            <div class="project-card interactive-card">
+                <div class="dashboard-container">
+                    <iframe 
+                        src="https://lookerstudio.google.com/embed/reporting/fcd5dfde-f28e-4a5b-a71a-ac496c1f50ce/page/9PrmF" 
+                        frameborder="0" 
+                        style="border:0" 
+                        allowfullscreen 
+                        sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+                    </iframe>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>
+                            <span class="ar">تحليل سوق الأغنام السعودي (تفاعلي حي)</span>
+                            <span class="en">Saudi Sheep Market Analysis (Live)</span>
+                        </h3>
+                        <span class="live-tag">LIVE</span>
+                    </div>
+                    <p>
+                        <span class="ar">تحويل سجلات البيانات إلى لوحة تحكم تفاعلية تراقب الأسعار والحالة الصحية لحظياً لمساعدة المربين والمستثمرين.</span>
+                        <span class="en">.Transforming data records into an interactive dashboard that monitors prices and health status in real-time to assist breeders and investors</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>
+                        <span class="ar">هندسة البيانات: تحليل سوق العمل (Wuzzuf)</span>
+                        <span class="en">Data Engineering: Job Market Analysis (Wuzzuf)</span>
+                    </h3>
+                    <p>
+                        <span class="ar">سحب وتحليل بيانات 637 إعلان وظيفي تقني لاستخراج المهارات الأكثر طلباً في سوق العمل السعودي الحالي.</span>
+                        <span class="en">Scraped and analyzed 637 tech job postings to extract the most in-demand skills in the current Saudi job market</span>
+                    </p>
+                    <div class="tags"><span>Scraping</span><span>Pandas</span></div>
+                    <a href="https://github.com/Amirah404/Wuzzuf-Jobs-Data-Engineering" target="_blank" class="link-btn">
+                        <span class="ar">عرض الكود على GitHub ↗️</span>
+                        <span class="en">View Code on GitHub ↗️</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>
+                            <span class="ar">التنبؤ بأسعار السيارات (Regression)</span>
+                            <span class="en">Car Price Prediction (Regression)</span>
+                        </h3>
+                        <a href="Car_Price_Prediction_Certificate.pdf" target="_blank" class="certificate-badge">
+                            <span class="ar">⭐️ شهادة إنجاز معتمدة</span>
+                            <span class="en">⭐️ Certified Achievement</span>
+                        </a>
+                    </div>
+                    <p>
+                        <span class="ar">بناء نموذج تنبؤي باستخدام Random Forest لتحليل وتوقع أسعار المركبات، حصلتُ من خلاله على شهادة تميز من معسكر الذكاء الاصطناعي.</span>
+                        <span class="en">Built a predictive model using Random Forest to analyze and predict vehicle prices, earning a certificate of excellence from an AI bootcamp</span>
+                    </p>
+                    <div class="project-links">
+                        <a href="https://colab.research.google.com/drive/1Or18bEKUR1_XIjOS6AkZBkui54Vz7mfw?usp=sharing" target="_blank" class="link-btn">
+                            <span class="ar">الكود في Colab ↗️</span>
+                            <span class="en">Code in Colab ↗️</span>
+                        </a>
+                        <a href="./Car_Price_Analysis_Amirah.pdf" target="_blank" class="link-btn secondary">
+                            <span class="ar">عرض التقرير 📄</span>
+                            <span class="en">View Report 📄</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>
+                        <span class="ar">تصنيف فصائل الزهور (Iris Classification)</span>
+                        <span class="en">Iris Flower Classification</span>
+                    </h3>
+                    <p>
+                        <span class="ar">مقارنة أداء 10 خوارزميات تعلم آلة، وتحقيق دقة 97.78% باستخدام KNN و SVM لتصنيف فصائل الزهور بدقة.</span>
+                        <span class="en">Compared the performance of 10 ML algorithms, achieving 97.78% accuracy using KNN and SVM for precise flower classification</span>
+                    </p>
+                    <div class="project-links">
+                        <a href="https://colab.research.google.com/drive/1eUsawZZ_g4kSP-lkHbcPslvYOF9jjFGZ?usp=sharing" target="_blank" class="link-btn">
+                            <span class="ar">الكود في Colab ↗️</span>
+                            <span class="en">Code in Colab ↗️</span>
+                        </a>
+                        <a href="./Iris_Flower_Classification_Amirah.pdf" target="_blank" class="link-btn secondary">
+                            <span class="ar">عرض التقرير 📄</span>
+                            <span class="en">View Report 📄</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="certificates container">
+        <h2 class="section-title">
+            <span class="ar">الشهادات المهنية المعتمدة</span>
+            <span class="en">Professional Certifications</span>
+        </h2>
+        <div class="cert-grid">
+            <div class="cert-card">
+                <img src="ibm-ai-intro.jpg" alt="IBM AI">
+                <h3>IBM: Intro to Generative AI and Applications</h3>
+            </div>
+            <div class="cert-card">
+                <img src="sdaia-concepts.jpg" alt="SDAIA">
+                <h3>SDAIA: مفاهيم الذكاء الاصطناعي</h3>
+            </div>
+            <div class="cert-card">
+                <img src="google-pm.jpg" alt="Google PM">
+                <h3>Google: Project Management</h3>
+            </div>
+        </div>
+
+        <div class="other-certs-links">
+            <a href="ibm-ai-models.jpg" class="link-item" target="_blank">IBM: Generative AI Models</a>
+            <a href="ibm-ai-business.jpg" class="link-item" target="_blank">IBM: AI Business Transformation</a>
+            <a href="ibm-eda.jpg" class="link-item" target="_blank">IBM: Exploratory Data Analysis</a>
+            <a href="sdaia-apps.jpg" class="link-item" target="_blank">SDAIA: مبادئ الذكاء الاصطناعي</a>
+            <a href="powerbi.jpg" class="link-item" target="_blank">Microsoft: Power BI Analysis</a>
+            <a href="english.jpg" class="link-item" target="_blank">English for the Workplace</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            <span class="ar"> أميره الرشيدي - جميع الحقوق محفوظة 2026 © </span>
+            <span class="en">© 2026 Amirah Alreshidi - All Rights Reserved </span>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
